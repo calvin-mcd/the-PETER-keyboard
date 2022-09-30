@@ -37,15 +37,24 @@
             25300.1 -47063.8  25601.8 -47008.5  25908 -46990  262382 -46990
             262688 -47008.5)
     )
+    (plane GND (polygon B.Cu 0  151892 -47117  151892 -62865  136652 -62865  136652 -46990
+            151892 -47117))
+    (plane GND (polygon B.Cu 0  155194 -90932  144780 -90932  144780 -85979  155194 -85979
+            155194 -90932))
+    (plane GND (polygon B.Cu 0  156718 -104394  150368 -110617  143891 -103886  150114 -97790
+            156718 -104394))
     (via "Via[0-1]_800:400_um")
     (rule
       (width 150)
-      (clearance 200.1)
-      (clearance 200.1 (type default_smd))
-      (clearance 50 (type smd_smd))
+      (clearance 100.1)
+      (clearance 100.1 (type default_smd))
+      (clearance 25 (type smd_smd))
     )
   )
   (placement
+    (component "Package_DFN_QFN:QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm"
+      (place U1 150241.000000 -104267.000000 back 180.000000 (PN "ATmega32U4-M"))
+    )
     (component "MX_Only:MXOnly-1U-NoLED"
       (place MX56 215900.000000 -132842.000000 front 0.000000 (PN "MX-NoLED"))
     )
@@ -227,58 +236,58 @@
       (place MX23 225425.000000 -75692.000000 front 0.000000 (PN "MX-NoLED"))
     )
     (component "Diode_SMD:D_SOD-123"
-      (place D40 104775.000000 -116681.250000 back 270.000000 (PN D_Small))
+      (place D40 104775.000000 -116681.200000 back 270.000000 (PN D_Small))
     )
     (component "Diode_SMD:D_SOD-123::1"
-      (place D28 100012.500000 -97631.250000 back 270.000000 (PN D_Small))
+      (place D28 100012.500000 -97631.200000 back 270.000000 (PN D_Small))
     )
     (component Resistor_SMD:R_0805_2012Metric
       (place R_reset1 143129.000000 -96901.000000 back 90.000000 (PN 10k))
     )
     (component "Diode_SMD:D_SOD-123::2"
-      (place D21 190500.000000 -78581.250000 back 270.000000 (PN D_Small))
+      (place D21 190500.000000 -78581.200000 back 270.000000 (PN D_Small))
     )
     (component Resistor_SMD:R_0805_2012Metric::1
       (place R_USB2 142621.000000 -59563.000000 back 90.000000 (PN 5.1k))
     )
     (component "Diode_SMD:D_SOD-123::3"
-      (place D26 61912.500000 -97631.250000 back 270.000000 (PN D_Small))
+      (place D26 61912.500000 -97631.200000 back 270.000000 (PN D_Small))
     )
     (component "Diode_SMD:D_SOD-123::4"
-      (place D9 195262.500000 -59531.250000 back 270.000000 (PN D_Small))
+      (place D9 195262.500000 -59531.200000 back 270.000000 (PN D_Small))
     )
     (component "Diode_SMD:D_SOD-123::5"
-      (place D50 61912.500000 -135731.250000 back 270.000000 (PN D_Small))
+      (place D50 61912.500000 -135731.200000 back 270.000000 (PN D_Small))
     )
     (component "Diode_SMD:D_SOD-123::6"
-      (place D44 180975.000000 -116681.250000 back 270.000000 (PN D_Small))
+      (place D44 180975.000000 -116681.200000 back 270.000000 (PN D_Small))
     )
     (component "Diode_SMD:D_SOD-123::7"
-      (place D45 200025.000000 -116681.250000 back 270.000000 (PN D_Small))
+      (place D45 200025.000000 -116681.200000 back 270.000000 (PN D_Small))
     )
     (component "Diode_SMD:D_SOD-123::8"
-      (place D17 114300.000000 -78581.250000 back 270.000000 (PN D_Small))
+      (place D17 114300.000000 -78581.200000 back 270.000000 (PN D_Small))
     )
     (component "Diode_SMD:D_SOD-123::9"
-      (place D52 121443.750000 -135731.250000 back 270.000000 (PN D_Small))
+      (place D52 121443.800000 -135731.200000 back 270.000000 (PN D_Small))
     )
     (component "Diode_SMD:D_SOD-123::10"
-      (place D58 257175.000000 -135731.250000 back 270.000000 (PN D_Small))
+      (place D58 257175.000000 -135731.200000 back 270.000000 (PN D_Small))
     )
     (component Resistor_SMD:R_0805_2012Metric::2
       (place R_HWB/PE2 157353.000000 -109982.000000 back 90.000000 (PN 10k))
     )
     (component "Diode_SMD:D_SOD-123::11"
-      (place D38 66675.000000 -116681.250000 back 270.000000 (PN D_Small))
+      (place D38 66675.000000 -116681.200000 back 270.000000 (PN D_Small))
     )
     (component Capacitor_SMD:C_0805_2012Metric
-      (place C_Decoupler1 145542.000000 -97028.000000 back 270.000000 (PN 0.1uF))
+      (place C_Decoupler1 145796.000000 -96901.000000 back 270.000000 (PN 0.1uF))
     )
     (component Capacitor_SMD:C_0805_2012Metric::1
       (place C_crystal2 146651.800000 -88577.600000 back 270.000000 (PN 22pF))
     )
     (component "Diode_SMD:D_SOD-123::12"
-      (place D35 233362.500000 -97631.250000 back 270.000000 (PN D_Small))
+      (place D35 233362.500000 -97631.200000 back 270.000000 (PN D_Small))
     )
     (component "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
       (place J1 144145.000000 -49022.000000 back 180.000000 (PN USB_C_Receptacle_USB2.0))
@@ -287,16 +296,16 @@
       (place D23 228600.000000 -79756.000000 back 270.000000 (PN D_Small))
     )
     (component "Diode_SMD:D_SOD-123::14"
-      (place D42 142875.000000 -116681.250000 back 270.000000 (PN D_Small))
+      (place D42 142875.000000 -116681.200000 back 270.000000 (PN D_Small))
     )
     (component "Diode_SMD:D_SOD-123::15"
-      (place D47 238125.000000 -116681.250000 back 270.000000 (PN D_Small))
+      (place D47 238125.000000 -116681.200000 back 270.000000 (PN D_Small))
     )
     (component "Diode_SMD:D_SOD-123::16"
-      (place D4 100012.500000 -59531.250000 back 270.000000 (PN D_Small))
+      (place D4 100012.500000 -59531.200000 back 270.000000 (PN D_Small))
     )
     (component "Diode_SMD:D_SOD-123::17"
-      (place D3 80962.500000 -59531.250000 back 270.000000 (PN D_Small))
+      (place D3 80962.500000 -59531.200000 back 270.000000 (PN D_Small))
     )
     (component Resistor_SMD:R_0805_2012Metric::3
       (place R_USB3 138049.000000 -75692.000000 back 90.000000 (PN 22ohm))
@@ -305,10 +314,10 @@
       (place R_USB1 140563.600000 -59563.000000 back 90.000000 (PN 5.1k))
     )
     (component "Diode_SMD:D_SOD-123::18"
-      (place D27 80962.500000 -97631.250000 back 270.000000 (PN D_Small))
+      (place D27 80962.500000 -97631.200000 back 270.000000 (PN D_Small))
     )
     (component "Diode_SMD:D_SOD-123::19"
-      (place D12 243681.250000 -61118.750000 back 270.000000 (PN D_Small))
+      (place D12 243681.300000 -61118.700000 back 270.000000 (PN D_Small))
     )
     (component Capacitor_SMD:C_0805_2012Metric::2
       (place C_Decoupler2 151892.000000 -111760.000000 back 180.000000 (PN 0.1uF))
@@ -317,19 +326,19 @@
       (place D1 44577.000000 -61341.000000 back 270.000000 (PN D_Small))
     )
     (component "Diode_SMD:D_SOD-123::21"
-      (place D37 42862.500000 -116681.250000 back 270.000000 (PN D_Small))
+      (place D37 42862.500000 -116681.200000 back 270.000000 (PN D_Small))
     )
     (component "random-keyboard-parts:SKQG-1155865"
       (place SW2 130175.000000 -104140.000000 back 0.000000 (PN SW_Push))
     )
     (component "Diode_SMD:D_SOD-123::22"
-      (place D39 85725.000000 -116681.250000 back 270.000000 (PN D_Small))
+      (place D39 85725.000000 -116681.200000 back 270.000000 (PN D_Small))
     )
     (component Resistor_SMD:R_0805_2012Metric::5
       (place R_USB4 141986.000000 -75819.000000 back 90.000000 (PN 22ohm))
     )
     (component "Diode_SMD:D_SOD-123::23"
-      (place D11 233362.500000 -59531.250000 back 270.000000 (PN D_Small))
+      (place D11 233362.500000 -59531.200000 back 270.000000 (PN D_Small))
     )
     (component "Diode_SMD:D_SOD-123::24"
       (place D51 83312.000000 -135763.000000 back 270.000000 (PN D_Small))
@@ -341,49 +350,49 @@
       (place R_USBSHIELD1 148082.000000 -59690.000000 back 90.000000 (PN 1M))
     )
     (component "Diode_SMD:D_SOD-123::25"
-      (place D33 195262.500000 -97631.250000 back 270.000000 (PN D_Small))
+      (place D33 195262.500000 -97631.200000 back 270.000000 (PN D_Small))
     )
     (component "Diode_SMD:D_SOD-123::26"
-      (place D7 157162.500000 -59531.250000 back 270.000000 (PN D_Small))
+      (place D7 157162.500000 -59531.200000 back 270.000000 (PN D_Small))
     )
     (component "Diode_SMD:D_SOD-123::27"
-      (place D41 123825.000000 -116681.250000 back 270.000000 (PN D_Small))
+      (place D41 123825.000000 -116681.200000 back 270.000000 (PN D_Small))
     )
     (component "Diode_SMD:D_SOD-123::28"
-      (place D43 161925.000000 -116681.250000 back 270.000000 (PN D_Small))
+      (place D43 161925.000000 -116681.200000 back 270.000000 (PN D_Small))
     )
     (component Capacitor_SMD:C_0805_2012Metric::3
       (place C_UCAP1 144653.000000 -110998.000000 back 90.000000 (PN 1uF))
     )
     (component "Diode_SMD:D_SOD-123::29"
-      (place D57 238125.000000 -135731.250000 back 270.000000 (PN D_Small))
+      (place D57 238125.000000 -135731.200000 back 270.000000 (PN D_Small))
     )
     (component "Diode_SMD:D_SOD-123::30"
-      (place D13 38100.000000 -78581.250000 back 270.000000 (PN D_Small))
+      (place D13 38100.000000 -78581.200000 back 270.000000 (PN D_Small))
     )
     (component Capacitor_SMD:C_0805_2012Metric::4
       (place C_crystal1 153916.200000 -88592.800000 back 90.000000 (PN 22pF))
     )
     (component "Diode_SMD:D_SOD-123::31"
-      (place D10 214312.500000 -59531.250000 back 270.000000 (PN D_Small))
+      (place D10 214312.500000 -59531.200000 back 270.000000 (PN D_Small))
     )
     (component "Diode_SMD:D_SOD-123::32"
-      (place D16 95250.000000 -78581.250000 back 270.000000 (PN D_Small))
+      (place D16 95250.000000 -78581.200000 back 270.000000 (PN D_Small))
     )
     (component "Diode_SMD:D_SOD-123::33"
       (place D_SW1 44577.000000 -51816.000000 back 270.000000 (PN D_Small))
     )
     (component "Diode_SMD:D_SOD-123::34"
-      (place D25 40481.250000 -97631.250000 back 270.000000 (PN D_Small))
+      (place D25 40481.300000 -97631.200000 back 270.000000 (PN D_Small))
     )
     (component "Diode_SMD:D_SOD-123::35"
-      (place D32 176212.500000 -97631.250000 back 270.000000 (PN D_Small))
+      (place D32 176212.500000 -97631.200000 back 270.000000 (PN D_Small))
     )
     (component "Diode_SMD:D_SOD-123::36"
-      (place D8 176212.500000 -59531.250000 back 270.000000 (PN D_Small))
+      (place D8 176212.500000 -59531.200000 back 270.000000 (PN D_Small))
     )
     (component "Diode_SMD:D_SOD-123::37"
-      (place D48 257175.000000 -116681.250000 back 270.000000 (PN D_Small))
+      (place D48 257175.000000 -116681.200000 back 270.000000 (PN D_Small))
     )
     (component "Package_TO_SOT_SMD:SOT-143"
       (place D59 145415.000000 -57404.000000 back 270.000000 (PN PRTR5V0U2X))
@@ -392,85 +401,145 @@
       (place C_USBSHIELD1 150114.000000 -59690.000000 back 90.000000 (PN 4.7nF))
     )
     (component "Diode_SMD:D_SOD-123::38"
-      (place D56 219075.000000 -135731.250000 back 270.000000 (PN D_Small))
+      (place D56 219075.000000 -135731.200000 back 270.000000 (PN D_Small))
     )
     (component "Diode_SMD:D_SOD-123::39"
-      (place D30 138112.500000 -97631.250000 back 270.000000 (PN D_Small))
+      (place D30 138112.500000 -97631.200000 back 270.000000 (PN D_Small))
     )
     (component "Diode_SMD:D_SOD-123::40"
-      (place D22 209550.000000 -78581.250000 back 270.000000 (PN D_Small))
+      (place D22 209550.000000 -78581.200000 back 270.000000 (PN D_Small))
     )
     (component "Diode_SMD:D_SOD-123::41"
-      (place D53 152400.000000 -135731.250000 back 270.000000 (PN D_Small))
+      (place D53 152400.000000 -135731.200000 back 270.000000 (PN D_Small))
     )
     (component "Diode_SMD:D_SOD-123::42"
-      (place D34 214312.500000 -97631.250000 back 270.000000 (PN D_Small))
+      (place D34 214312.500000 -97631.200000 back 270.000000 (PN D_Small))
     )
     (component "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
       (place Y1 150157.000000 -88577.600000 back 0.000000 (PN Crystal_GND24_Small))
     )
     (component "Diode_SMD:D_SOD-123::43"
-      (place D6 138112.500000 -59531.250000 back 270.000000 (PN D_Small))
+      (place D6 138112.500000 -59531.200000 back 270.000000 (PN D_Small))
     )
     (component "Diode_SMD:D_SOD-123::44"
-      (place D18 133350.000000 -78581.250000 back 270.000000 (PN D_Small))
+      (place D18 133350.000000 -78581.200000 back 270.000000 (PN D_Small))
     )
     (component Capacitor_SMD:C_0805_2012Metric::6
       (place C_Decoupler4 146939.000000 -112903.000000 back 90.000000 (PN 10uF))
     )
     (component "Diode_SMD:D_SOD-123::45"
-      (place D19 152400.000000 -78581.250000 back 270.000000 (PN D_Small))
+      (place D19 152400.000000 -78581.200000 back 270.000000 (PN D_Small))
     )
     (component Capacitor_SMD:C_0805_2012Metric::7
-      (place C_Decoupler3 157226.000000 -101854.000000 back 270.000000 (PN 0.1uF))
+      (place C_Decoupler3 154686.000000 -98679.000000 back 270.000000 (PN 0.1uF))
     )
     (component "Diode_SMD:D_SOD-123::46"
-      (place D46 219075.000000 -116681.250000 back 270.000000 (PN D_Small))
+      (place D46 219075.000000 -116681.200000 back 270.000000 (PN D_Small))
     )
     (component "Diode_SMD:D_SOD-123::47"
-      (place D31 157162.500000 -97631.250000 back 270.000000 (PN D_Small))
+      (place D31 157162.500000 -97631.200000 back 270.000000 (PN D_Small))
     )
     (component "Diode_SMD:D_SOD-123::48"
-      (place D29 119062.500000 -97631.250000 back 270.000000 (PN D_Small))
+      (place D29 119062.500000 -97631.200000 back 270.000000 (PN D_Small))
     )
     (component "Diode_SMD:D_SOD-123::49"
-      (place D_SW12 243681.250000 -51593.750000 back 270.000000 (PN D_Small))
+      (place D_SW12 243681.300000 -51593.700000 back 270.000000 (PN D_Small))
     )
     (component "Diode_SMD:D_SOD-123::50"
-      (place D54 169068.750000 -135731.250000 back 270.000000 (PN D_Small))
+      (place D54 169068.800000 -135731.200000 back 270.000000 (PN D_Small))
     )
     (component "Diode_SMD:D_SOD-123::51"
-      (place D2 61912.500000 -59531.250000 back 270.000000 (PN D_Small))
+      (place D2 61912.500000 -59531.200000 back 270.000000 (PN D_Small))
     )
     (component "Diode_SMD:D_SOD-123::52"
-      (place D5 119062.500000 -59531.250000 back 270.000000 (PN D_Small))
+      (place D5 119062.500000 -59531.200000 back 270.000000 (PN D_Small))
     )
     (component "Diode_SMD:D_SOD-123::53"
-      (place D24 252412.500000 -78581.250000 back 270.000000 (PN D_Small))
+      (place D24 252412.500000 -78581.200000 back 270.000000 (PN D_Small))
     )
     (component "Diode_SMD:D_SOD-123::54"
-      (place D20 171450.000000 -78581.250000 back 270.000000 (PN D_Small))
+      (place D20 171450.000000 -78581.200000 back 270.000000 (PN D_Small))
     )
     (component "Diode_SMD:D_SOD-123::55"
-      (place D36 254793.750000 -97631.250000 back 270.000000 (PN D_Small))
+      (place D36 254793.800000 -97631.200000 back 270.000000 (PN D_Small))
     )
     (component "Diode_SMD:D_SOD-123::56"
-      (place D14 57150.000000 -78581.250000 back 270.000000 (PN D_Small))
+      (place D14 57150.000000 -78581.200000 back 270.000000 (PN D_Small))
     )
     (component "Diode_SMD:D_SOD-123::57"
-      (place D49 40481.250000 -135731.250000 back 270.000000 (PN D_Small))
+      (place D49 40481.300000 -135731.200000 back 270.000000 (PN D_Small))
     )
     (component "Diode_SMD:D_SOD-123::58"
-      (place D55 200025.000000 -135731.250000 back 270.000000 (PN D_Small))
-    )
-    (component "Package_DFN_QFN:QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm"
-      (place U1 150749.000000 -105537.000000 back 180.000000 (PN "ATmega32U4-M"))
+      (place D55 200025.000000 -135731.200000 back 270.000000 (PN D_Small))
     )
     (component "Diode_SMD:D_SOD-123::59"
-      (place D15 76200.000000 -78581.250000 back 270.000000 (PN D_Small))
+      (place D15 76200.000000 -78581.200000 back 270.000000 (PN D_Small))
     )
   )
   (library
+    (image "Package_DFN_QFN:QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm"
+      (outline (path signal 120  2885 -3610  3610 -3610))
+      (outline (path signal 120  -2885 -3610  -3610 -3610))
+      (outline (path signal 120  -2885 3610  -3610 3610))
+      (outline (path signal 120  -3610 -3610  -3610 -2885))
+      (outline (path signal 120  3610 3610  3610 2885))
+      (outline (path signal 120  3610 -3610  3610 -2885))
+      (outline (path signal 120  2885 3610  3610 3610))
+      (outline (path signal 50  4120 -4120  4120 4120))
+      (outline (path signal 50  4120 4120  -4120 4120))
+      (outline (path signal 50  -4120 -4120  4120 -4120))
+      (outline (path signal 50  -4120 4120  -4120 -4120))
+      (outline (path signal 100  -3500 2500  -2500 3500))
+      (outline (path signal 100  3500 -3500  -3500 -3500))
+      (outline (path signal 100  -2500 3500  3500 3500))
+      (outline (path signal 100  -3500 -3500  -3500 2500))
+      (outline (path signal 100  3500 3500  3500 -3500))
+      (pin RoundRect[T]Pad_1075x250_62.738_um_0.000000_0 1 -3337.5 2500)
+      (pin RoundRect[T]Pad_1075x250_62.738_um_0.000000_0 2 -3337.5 2000)
+      (pin RoundRect[T]Pad_1075x250_62.738_um_0.000000_0 3 -3337.5 1500)
+      (pin RoundRect[T]Pad_1075x250_62.738_um_0.000000_0 4 -3337.5 1000)
+      (pin RoundRect[T]Pad_1075x250_62.738_um_0.000000_0 5 -3337.5 500)
+      (pin RoundRect[T]Pad_1075x250_62.738_um_0.000000_0 6 -3337.5 0)
+      (pin RoundRect[T]Pad_1075x250_62.738_um_0.000000_0 7 -3337.5 -500)
+      (pin RoundRect[T]Pad_1075x250_62.738_um_0.000000_0 8 -3337.5 -1000)
+      (pin RoundRect[T]Pad_1075x250_62.738_um_0.000000_0 9 -3337.5 -1500)
+      (pin RoundRect[T]Pad_1075x250_62.738_um_0.000000_0 10 -3337.5 -2000)
+      (pin RoundRect[T]Pad_1075x250_62.738_um_0.000000_0 11 -3337.5 -2500)
+      (pin RoundRect[T]Pad_250x1075_62.738_um_0.000000_0 12 -2500 -3337.5)
+      (pin RoundRect[T]Pad_250x1075_62.738_um_0.000000_0 13 -2000 -3337.5)
+      (pin RoundRect[T]Pad_250x1075_62.738_um_0.000000_0 14 -1500 -3337.5)
+      (pin RoundRect[T]Pad_250x1075_62.738_um_0.000000_0 15 -1000 -3337.5)
+      (pin RoundRect[T]Pad_250x1075_62.738_um_0.000000_0 16 -500 -3337.5)
+      (pin RoundRect[T]Pad_250x1075_62.738_um_0.000000_0 17 0 -3337.5)
+      (pin RoundRect[T]Pad_250x1075_62.738_um_0.000000_0 18 500 -3337.5)
+      (pin RoundRect[T]Pad_250x1075_62.738_um_0.000000_0 19 1000 -3337.5)
+      (pin RoundRect[T]Pad_250x1075_62.738_um_0.000000_0 20 1500 -3337.5)
+      (pin RoundRect[T]Pad_250x1075_62.738_um_0.000000_0 21 2000 -3337.5)
+      (pin RoundRect[T]Pad_250x1075_62.738_um_0.000000_0 22 2500 -3337.5)
+      (pin RoundRect[T]Pad_1075x250_62.738_um_0.000000_0 23 3337.5 -2500)
+      (pin RoundRect[T]Pad_1075x250_62.738_um_0.000000_0 24 3337.5 -2000)
+      (pin RoundRect[T]Pad_1075x250_62.738_um_0.000000_0 25 3337.5 -1500)
+      (pin RoundRect[T]Pad_1075x250_62.738_um_0.000000_0 26 3337.5 -1000)
+      (pin RoundRect[T]Pad_1075x250_62.738_um_0.000000_0 27 3337.5 -500)
+      (pin RoundRect[T]Pad_1075x250_62.738_um_0.000000_0 28 3337.5 0)
+      (pin RoundRect[T]Pad_1075x250_62.738_um_0.000000_0 29 3337.5 500)
+      (pin RoundRect[T]Pad_1075x250_62.738_um_0.000000_0 30 3337.5 1000)
+      (pin RoundRect[T]Pad_1075x250_62.738_um_0.000000_0 31 3337.5 1500)
+      (pin RoundRect[T]Pad_1075x250_62.738_um_0.000000_0 32 3337.5 2000)
+      (pin RoundRect[T]Pad_1075x250_62.738_um_0.000000_0 33 3337.5 2500)
+      (pin RoundRect[T]Pad_250x1075_62.738_um_0.000000_0 34 2500 3337.5)
+      (pin RoundRect[T]Pad_250x1075_62.738_um_0.000000_0 35 2000 3337.5)
+      (pin RoundRect[T]Pad_250x1075_62.738_um_0.000000_0 36 1500 3337.5)
+      (pin RoundRect[T]Pad_250x1075_62.738_um_0.000000_0 37 1000 3337.5)
+      (pin RoundRect[T]Pad_250x1075_62.738_um_0.000000_0 38 500 3337.5)
+      (pin RoundRect[T]Pad_250x1075_62.738_um_0.000000_0 39 0 3337.5)
+      (pin RoundRect[T]Pad_250x1075_62.738_um_0.000000_0 40 -500 3337.5)
+      (pin RoundRect[T]Pad_250x1075_62.738_um_0.000000_0 41 -1000 3337.5)
+      (pin RoundRect[T]Pad_250x1075_62.738_um_0.000000_0 42 -1500 3337.5)
+      (pin RoundRect[T]Pad_250x1075_62.738_um_0.000000_0 43 -2000 3337.5)
+      (pin RoundRect[T]Pad_250x1075_62.738_um_0.000000_0 44 -2500 3337.5)
+      (pin Rect[T]Pad_5200x5200_um 45 0 0)
+    )
     (image "MX_Only:MXOnly-1U-NoLED"
       (outline (path signal 150  9525 -9525  -9525 -9525))
       (outline (path signal 150  -9525 -9525  -9525 9525))
@@ -3530,69 +3599,6 @@
       (pin Rect[T]Pad_900x1200_um 1 -1650 0)
       (pin Rect[T]Pad_900x1200_um 2 1650 0)
     )
-    (image "Package_DFN_QFN:QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm"
-      (outline (path signal 120  2885 -3610  3610 -3610))
-      (outline (path signal 120  -2885 -3610  -3610 -3610))
-      (outline (path signal 120  -2885 3610  -3610 3610))
-      (outline (path signal 120  -3610 -3610  -3610 -2885))
-      (outline (path signal 120  3610 3610  3610 2885))
-      (outline (path signal 120  3610 -3610  3610 -2885))
-      (outline (path signal 120  2885 3610  3610 3610))
-      (outline (path signal 50  4120 -4120  4120 4120))
-      (outline (path signal 50  4120 4120  -4120 4120))
-      (outline (path signal 50  -4120 -4120  4120 -4120))
-      (outline (path signal 50  -4120 4120  -4120 -4120))
-      (outline (path signal 100  -3500 2500  -2500 3500))
-      (outline (path signal 100  3500 -3500  -3500 -3500))
-      (outline (path signal 100  -2500 3500  3500 3500))
-      (outline (path signal 100  -3500 -3500  -3500 2500))
-      (outline (path signal 100  3500 3500  3500 -3500))
-      (pin RoundRect[T]Pad_1075x250_62.738_um_0.000000_0 1 -3337.5 2500)
-      (pin RoundRect[T]Pad_1075x250_62.738_um_0.000000_0 2 -3337.5 2000)
-      (pin RoundRect[T]Pad_1075x250_62.738_um_0.000000_0 3 -3337.5 1500)
-      (pin RoundRect[T]Pad_1075x250_62.738_um_0.000000_0 4 -3337.5 1000)
-      (pin RoundRect[T]Pad_1075x250_62.738_um_0.000000_0 5 -3337.5 500)
-      (pin RoundRect[T]Pad_1075x250_62.738_um_0.000000_0 6 -3337.5 0)
-      (pin RoundRect[T]Pad_1075x250_62.738_um_0.000000_0 7 -3337.5 -500)
-      (pin RoundRect[T]Pad_1075x250_62.738_um_0.000000_0 8 -3337.5 -1000)
-      (pin RoundRect[T]Pad_1075x250_62.738_um_0.000000_0 9 -3337.5 -1500)
-      (pin RoundRect[T]Pad_1075x250_62.738_um_0.000000_0 10 -3337.5 -2000)
-      (pin RoundRect[T]Pad_1075x250_62.738_um_0.000000_0 11 -3337.5 -2500)
-      (pin RoundRect[T]Pad_250x1075_62.738_um_0.000000_0 12 -2500 -3337.5)
-      (pin RoundRect[T]Pad_250x1075_62.738_um_0.000000_0 13 -2000 -3337.5)
-      (pin RoundRect[T]Pad_250x1075_62.738_um_0.000000_0 14 -1500 -3337.5)
-      (pin RoundRect[T]Pad_250x1075_62.738_um_0.000000_0 15 -1000 -3337.5)
-      (pin RoundRect[T]Pad_250x1075_62.738_um_0.000000_0 16 -500 -3337.5)
-      (pin RoundRect[T]Pad_250x1075_62.738_um_0.000000_0 17 0 -3337.5)
-      (pin RoundRect[T]Pad_250x1075_62.738_um_0.000000_0 18 500 -3337.5)
-      (pin RoundRect[T]Pad_250x1075_62.738_um_0.000000_0 19 1000 -3337.5)
-      (pin RoundRect[T]Pad_250x1075_62.738_um_0.000000_0 20 1500 -3337.5)
-      (pin RoundRect[T]Pad_250x1075_62.738_um_0.000000_0 21 2000 -3337.5)
-      (pin RoundRect[T]Pad_250x1075_62.738_um_0.000000_0 22 2500 -3337.5)
-      (pin RoundRect[T]Pad_1075x250_62.738_um_0.000000_0 23 3337.5 -2500)
-      (pin RoundRect[T]Pad_1075x250_62.738_um_0.000000_0 24 3337.5 -2000)
-      (pin RoundRect[T]Pad_1075x250_62.738_um_0.000000_0 25 3337.5 -1500)
-      (pin RoundRect[T]Pad_1075x250_62.738_um_0.000000_0 26 3337.5 -1000)
-      (pin RoundRect[T]Pad_1075x250_62.738_um_0.000000_0 27 3337.5 -500)
-      (pin RoundRect[T]Pad_1075x250_62.738_um_0.000000_0 28 3337.5 0)
-      (pin RoundRect[T]Pad_1075x250_62.738_um_0.000000_0 29 3337.5 500)
-      (pin RoundRect[T]Pad_1075x250_62.738_um_0.000000_0 30 3337.5 1000)
-      (pin RoundRect[T]Pad_1075x250_62.738_um_0.000000_0 31 3337.5 1500)
-      (pin RoundRect[T]Pad_1075x250_62.738_um_0.000000_0 32 3337.5 2000)
-      (pin RoundRect[T]Pad_1075x250_62.738_um_0.000000_0 33 3337.5 2500)
-      (pin RoundRect[T]Pad_250x1075_62.738_um_0.000000_0 34 2500 3337.5)
-      (pin RoundRect[T]Pad_250x1075_62.738_um_0.000000_0 35 2000 3337.5)
-      (pin RoundRect[T]Pad_250x1075_62.738_um_0.000000_0 36 1500 3337.5)
-      (pin RoundRect[T]Pad_250x1075_62.738_um_0.000000_0 37 1000 3337.5)
-      (pin RoundRect[T]Pad_250x1075_62.738_um_0.000000_0 38 500 3337.5)
-      (pin RoundRect[T]Pad_250x1075_62.738_um_0.000000_0 39 0 3337.5)
-      (pin RoundRect[T]Pad_250x1075_62.738_um_0.000000_0 40 -500 3337.5)
-      (pin RoundRect[T]Pad_250x1075_62.738_um_0.000000_0 41 -1000 3337.5)
-      (pin RoundRect[T]Pad_250x1075_62.738_um_0.000000_0 42 -1500 3337.5)
-      (pin RoundRect[T]Pad_250x1075_62.738_um_0.000000_0 43 -2000 3337.5)
-      (pin RoundRect[T]Pad_250x1075_62.738_um_0.000000_0 44 -2500 3337.5)
-      (pin Rect[T]Pad_5200x5200_um 45 0 0)
-    )
     (image "Diode_SMD:D_SOD-123::59"
       (outline (path signal 120  -2250 1000  -2250 -1000))
       (outline (path signal 120  -2250 1000  1650 1000))
@@ -3730,29 +3736,28 @@
   )
   (network
     (net GND
-      (pins SW1-C SW12-C R_USB2-2 R_HWB/PE2-2 C_Decoupler1-2 C_crystal2-1 J1-A1 J1-A12
-        J1-B1 J1-B12 R_USB1-2 C_Decoupler2-2 SW2-1 R_USBSHIELD1-2 C_UCAP1-2 C_crystal1-1
-        D59-1 C_USBSHIELD1-2 Y1-2 Y1-4 C_Decoupler4-2 C_Decoupler3-2 U1-5 U1-15 U1-23
-        U1-35 U1-43 U1-45)
+      (pins U1-5 U1-15 U1-23 U1-35 U1-43 U1-45 SW1-C SW12-C R_USB2-2 R_HWB/PE2-2 C_Decoupler1-2
+        C_crystal2-1 J1-A1 J1-A12 J1-B1 J1-B12 R_USB1-2 C_Decoupler2-2 SW2-1 R_USBSHIELD1-2
+        C_UCAP1-2 C_crystal1-1 D59-1 C_USBSHIELD1-2 Y1-2 Y1-4 C_Decoupler4-2 C_Decoupler3-2)
     )
     (net "Net-(C_crystal1-Pad2)"
-      (pins C_crystal1-2 Y1-1 U1-17)
+      (pins U1-17 C_crystal1-2 Y1-1)
     )
     (net "Net-(C_crystal2-Pad2)"
-      (pins C_crystal2-2 Y1-3 U1-16)
+      (pins U1-16 C_crystal2-2 Y1-3)
     )
     (net +5V
-      (pins R_reset1-1 C_Decoupler1-1 C_Decoupler2-1 F_USBC1-2 C_Decoupler4-1 C_Decoupler3-1
-        U1-2 U1-7 U1-14 U1-24 U1-34 U1-44)
+      (pins U1-2 U1-7 U1-14 U1-24 U1-34 U1-44 R_reset1-1 C_Decoupler1-1 C_Decoupler2-1
+        F_USBC1-2 C_Decoupler4-1 C_Decoupler3-1)
     )
     (net "Net-(C_UCAP1-Pad1)"
-      (pins C_UCAP1-1 U1-6)
+      (pins U1-6 C_UCAP1-1)
     )
-    (net "Net-(R_USBSHIELD1-Pad1)"
+    (net "Net-(C_USBSHIELD1-Pad1)"
       (pins J1-S1 J1-S1@1 J1-S1@2 J1-S1@3 R_USBSHIELD1-1 C_USBSHIELD1-1)
     )
     (net ROW0
-      (pins D9-1 D4-1 D3-1 D12-1 D1-1 D11-1 D7-1 D10-1 D_SW1-1 D8-1 D6-1 D_SW12-1
+      (pins U1-8 D9-1 D4-1 D3-1 D12-1 D1-1 D11-1 D7-1 D10-1 D_SW1-1 D8-1 D6-1 D_SW12-1
         D2-1 D5-1)
     )
     (net "Net-(D1-Pad2)"
@@ -3792,7 +3797,8 @@
       (pins MX12-2 D12-2)
     )
     (net ROW1
-      (pins D21-1 D17-1 D23-1 D13-1 D16-1 D22-1 D18-1 D19-1 D24-1 D20-1 D14-1 D15-1)
+      (pins U1-9 D21-1 D17-1 D23-1 D13-1 D16-1 D22-1 D18-1 D19-1 D24-1 D20-1 D14-1
+        D15-1)
     )
     (net "Net-(D13-Pad2)"
       (pins MX13-2 D13-2)
@@ -3831,7 +3837,8 @@
       (pins MX24-2 D24-2)
     )
     (net ROW2
-      (pins D28-1 D26-1 D35-1 D27-1 D33-1 D25-1 D32-1 D30-1 D34-1 D31-1 D29-1 D36-1)
+      (pins U1-10 D28-1 D26-1 D35-1 D27-1 D33-1 D25-1 D32-1 D30-1 D34-1 D31-1 D29-1
+        D36-1)
     )
     (net "Net-(D25-Pad2)"
       (pins MX25-2 D25-2)
@@ -3870,7 +3877,8 @@
       (pins MX36-2 D36-2)
     )
     (net " ROW3"
-      (pins D40-1 D44-1 D45-1 D38-1 D42-1 D47-1 D37-1 D39-1 D41-1 D43-1 D48-1 D46-1)
+      (pins U1-41 D40-1 D44-1 D45-1 D38-1 D42-1 D47-1 D37-1 D39-1 D41-1 D43-1 D48-1
+        D46-1)
     )
     (net "Net-(D37-Pad2)"
       (pins MX37-2 D37-2)
@@ -3909,7 +3917,7 @@
       (pins MX48-2 D48-2)
     )
     (net ROW4
-      (pins D50-1 D52-1 D58-1 D51-1 D57-1 D56-1 D53-1 D54-1 D49-1 D55-1)
+      (pins U1-40 D50-1 D52-1 D58-1 D51-1 D57-1 D56-1 D53-1 D54-1 D49-1 D55-1)
     )
     (net "Net-(D49-Pad2)"
       (pins MX49-2 D49-2)
@@ -3954,100 +3962,61 @@
       (pins SW12-S1 D_SW12-2)
     )
     (net COL0
-      (pins MX13-1 MX37-1 SW1-S2 MX49-1 MX1-1 MX25-1)
+      (pins U1-11 MX13-1 MX37-1 SW1-S2 MX49-1 MX1-1 MX25-1)
     )
     (net COL1
-      (pins MX14-1 MX26-1 MX50-1 MX38-1 MX2-1)
+      (pins U1-12 MX14-1 MX26-1 MX50-1 MX38-1 MX2-1)
     )
     (net COL2
-      (pins MX51-1 MX15-1 MX27-1 MX3-1 MX39-1)
+      (pins U1-18 MX51-1 MX15-1 MX27-1 MX3-1 MX39-1)
     )
     (net COL3
-      (pins MX28-1 MX16-1 MX40-1 MX4-1)
+      (pins U1-19 MX28-1 MX16-1 MX40-1 MX4-1)
     )
     (net COL4
-      (pins MX52-1 MX29-1 MX5-1 MX17-1 MX41-1)
+      (pins U1-20 MX52-1 MX29-1 MX5-1 MX17-1 MX41-1)
     )
     (net COL5
-      (pins MX30-1 MX18-1 MX6-1 MX42-1 MX53-1)
+      (pins U1-21 MX30-1 MX18-1 MX6-1 MX42-1 MX53-1)
     )
     (net COL6
-      (pins MX19-1 MX7-1 MX43-1 MX31-1)
+      (pins U1-22 MX19-1 MX7-1 MX43-1 MX31-1)
     )
     (net COL7
-      (pins MX54-1 MX32-1 MX8-1 MX20-1 MX44-1)
+      (pins U1-25 MX54-1 MX32-1 MX8-1 MX20-1 MX44-1)
     )
     (net COL8
-      (pins MX45-1 MX33-1 MX9-1 MX55-1 MX21-1)
+      (pins U1-26 MX45-1 MX33-1 MX9-1 MX55-1 MX21-1)
     )
     (net COL9
-      (pins MX56-1 MX46-1 MX22-1 MX10-1 MX34-1)
+      (pins U1-27 MX56-1 MX46-1 MX22-1 MX10-1 MX34-1)
     )
     (net COL10
-      (pins MX11-1 MX35-1 MX47-1 MX57-1 MX23-1)
+      (pins U1-38 MX11-1 MX35-1 MX47-1 MX57-1 MX23-1)
     )
     (net COL11
-      (pins MX48-1 MX12-1 MX24-1 MX36-1 SW12-S2 MX58-1)
+      (pins U1-39 MX48-1 MX12-1 MX24-1 MX36-1 SW12-S2 MX58-1)
     )
     (net "Net-(R_HWB/PE2-Pad1)"
-      (pins R_HWB/PE2-1 U1-33)
+      (pins U1-33 R_HWB/PE2-1)
     )
     (net "Net-(R_reset1-Pad2)"
-      (pins R_reset1-2 SW2-2 U1-13)
+      (pins U1-13 R_reset1-2 SW2-2)
     )
     (net "Net-(R_USB3-Pad2)"
-      (pins R_USB3-2 U1-3)
+      (pins U1-3 R_USB3-2)
     )
     (net "Net-(R_USB4-Pad2)"
-      (pins R_USB4-2 U1-4)
+      (pins U1-4 R_USB4-2)
     )
     (net ROTARY_A
-      (pins SW1-A SW12-A)
+      (pins U1-31 SW1-A SW12-A)
     )
     (net ROTARY_B
-      (pins SW1-B SW12-B)
+      (pins U1-32 SW1-B SW12-B)
     )
     (net "unconnected-(U1-Pad1)"
       (pins U1-1)
-    )
-    (net "unconnected-(U1-Pad8)"
-      (pins U1-8)
-    )
-    (net "unconnected-(U1-Pad9)"
-      (pins U1-9)
-    )
-    (net "unconnected-(U1-Pad10)"
-      (pins U1-10)
-    )
-    (net "unconnected-(U1-Pad11)"
-      (pins U1-11)
-    )
-    (net "unconnected-(U1-Pad12)"
-      (pins U1-12)
-    )
-    (net "unconnected-(U1-Pad18)"
-      (pins U1-18)
-    )
-    (net "unconnected-(U1-Pad19)"
-      (pins U1-19)
-    )
-    (net "unconnected-(U1-Pad20)"
-      (pins U1-20)
-    )
-    (net "unconnected-(U1-Pad21)"
-      (pins U1-21)
-    )
-    (net "unconnected-(U1-Pad22)"
-      (pins U1-22)
-    )
-    (net "unconnected-(U1-Pad25)"
-      (pins U1-25)
-    )
-    (net "unconnected-(U1-Pad26)"
-      (pins U1-26)
-    )
-    (net "unconnected-(U1-Pad27)"
-      (pins U1-27)
     )
     (net "unconnected-(U1-Pad28)"
       (pins U1-28)
@@ -4058,29 +4027,11 @@
     (net "unconnected-(U1-Pad30)"
       (pins U1-30)
     )
-    (net "unconnected-(U1-Pad31)"
-      (pins U1-31)
-    )
-    (net "unconnected-(U1-Pad32)"
-      (pins U1-32)
-    )
     (net "unconnected-(U1-Pad36)"
       (pins U1-36)
     )
     (net "unconnected-(U1-Pad37)"
       (pins U1-37)
-    )
-    (net "unconnected-(U1-Pad38)"
-      (pins U1-38)
-    )
-    (net "unconnected-(U1-Pad39)"
-      (pins U1-39)
-    )
-    (net "unconnected-(U1-Pad40)"
-      (pins U1-40)
-    )
-    (net "unconnected-(U1-Pad41)"
-      (pins U1-41)
     )
     (net "unconnected-(U1-Pad42)"
       (pins U1-42)
@@ -4106,7 +4057,7 @@
       )
       (rule
         (width 150)
-        (clearance 200.1)
+        (clearance 100.1)
       )
     )
     (class POWER +5V GND VCC
@@ -4115,7 +4066,7 @@
       )
       (rule
         (width 170)
-        (clearance 200.1)
+        (clearance 100.1)
       )
     )
   )
