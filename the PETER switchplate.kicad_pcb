@@ -91,7 +91,7 @@
 
   (footprint "MountingHole:MountingHole_2.2mm_M2_Pad" (layer "F.Cu")
     (tedit 56D1B4CB) (tstamp 0197d5ed-5562-4b22-9ec4-6241fa78fd77)
-    (at 47.752 140.208)
+    (at 46.482 141.224)
     (descr "Mounting Hole 2.2mm, M2")
     (tags "mounting hole 2.2mm m2")
     (attr exclude_from_pos_files exclude_from_bom)
