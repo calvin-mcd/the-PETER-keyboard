@@ -91,7 +91,7 @@
 
   (footprint "MountingHole:MountingHole_2.2mm_M2_Pad" (layer "F.Cu")
     (tedit 56D1B4CB) (tstamp 0197d5ed-5562-4b22-9ec4-6241fa78fd77)
-    (at 47.879 137.414)
+    (at 47.752 140.208)
     (descr "Mounting Hole 2.2mm, M2")
     (tags "mounting hole 2.2mm m2")
     (attr exclude_from_pos_files exclude_from_bom)
@@ -16000,7 +16000,7 @@
 
   (footprint "MountingHole:MountingHole_2.2mm_M2_Pad" (layer "F.Cu")
     (tedit 56D1B4CB) (tstamp 0f4f0e9c-2f10-4b41-8e91-12cecb3679e7)
-    (at 244.475 137.414)
+    (at 244.475 140.97)
     (descr "Mounting Hole 2.2mm, M2")
     (tags "mounting hole 2.2mm m2")
     (attr exclude_from_pos_files exclude_from_bom)
@@ -16023,7 +16023,7 @@
 
   (footprint "MountingHole:MountingHole_2.2mm_M2_Pad" (layer "F.Cu")
     (tedit 56D1B4CB) (tstamp 226bf01d-f0a2-413e-9041-4f4cfbaef1cd)
-    (at 241.935 51.943)
+    (at 220.599 49.53)
     (descr "Mounting Hole 2.2mm, M2")
     (tags "mounting hole 2.2mm m2")
     (attr exclude_from_pos_files exclude_from_bom)
@@ -16046,7 +16046,7 @@
 
   (footprint "MountingHole:MountingHole_2.2mm_M2_Pad" (layer "F.Cu")
     (tedit 56D1B4CB) (tstamp 4adf48a2-0649-480f-816a-00d87ae338ce)
-    (at 46.736 52.07)
+    (at 68.199 49.657)
     (descr "Mounting Hole 2.2mm, M2")
     (tags "mounting hole 2.2mm m2")
     (attr exclude_from_pos_files exclude_from_bom)
@@ -16158,6 +16158,9 @@
   (gr_line (start 125.222 139.827) (end 111.252 139.827) (layer "Edge.Cuts") (width 0.1) (tstamp f50fa199-0913-4c23-bf42-292510022263))
   (gr_rect (start 70.739 49.657) (end 84.709 63.627) (layer "Edge.Cuts") (width 0.1) (fill none) (tstamp f980248a-1ef1-4f96-80c0-ee47a641e807))
   (gr_rect (start 94.615 106.807) (end 108.585 120.777) (layer "Edge.Cuts") (width 0.1) (fill none) (tstamp fc5bf4d7-4660-4aed-914b-371ca74c1000))
+  (gr_text "make sure m2 are where they need to be!" (at 113.665 131.953) (layer "F.Adhes") (tstamp 404c5493-4374-4678-9570-baff3222776d)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
 
   (zone (net 0) (net_name "") (layers F&B.Cu) (tstamp 2e5d593e-0f95-4afa-858c-d65bebc7cc7b) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
