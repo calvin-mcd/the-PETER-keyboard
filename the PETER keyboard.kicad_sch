@@ -3308,7 +3308,7 @@
     (property "Value" "MX-NoLED" (id 1) (at 173.6056 110.49 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "MX_Only:MXOnly-6U-Centered-NoLED" (id 2) (at 156.845 116.205 0)
+    (property "Footprint" "MX_Only:MXOnly-6U-Centered-Hotswap" (id 2) (at 156.845 116.205 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (id 3) (at 156.845 116.205 0)
@@ -6691,7 +6691,7 @@
       (reference "MX52") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-2.75U-Hotswap")
     )
     (path "/0870f4c6-cf74-4d41-94d2-7eecd22517a4"
-      (reference "MX53") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-6U-Centered-NoLED")
+      (reference "MX53") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-6U-Centered-Hotswap")
     )
     (path "/150cbac0-f7f3-42a2-9fee-ab866a5399d2"
       (reference "MX54") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-2.25U-Hotswap")
