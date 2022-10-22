@@ -3308,7 +3308,7 @@
     (property "Value" "MX-NoLED" (id 1) (at 174.2406 111.125 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "MX_Only:MXOnly-6U-Centered-Hotswap" (id 2) (at 157.48 116.84 0)
+    (property "Footprint" "MX_Only:MXOnly-6U-Centered-Hotswap-ReversedStabilizers" (id 2) (at 157.48 116.84 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (id 3) (at 157.48 116.84 0)
@@ -3511,7 +3511,7 @@
     (property "Value" "MX-NoLED" (id 1) (at 193.9256 92.71 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "MX_Only:MXOnly-2.25U-Hotswap" (id 2) (at 177.165 98.425 0)
+    (property "Footprint" "MX_Only:MXOnly-2.25U-Hotswap-ReversedStabilizers" (id 2) (at 177.165 98.425 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (id 3) (at 177.165 98.425 0)
@@ -4810,7 +4810,7 @@
     (property "Value" "MX-NoLED" (id 1) (at 160.9056 92.71 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "MX_Only:MXOnly-2.75U-Hotswap" (id 2) (at 144.145 98.425 0)
+    (property "Footprint" "MX_Only:MXOnly-2.75U-Hotswap-ReversedStabilizers" (id 2) (at 144.145 98.425 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (id 3) (at 144.145 98.425 0)
@@ -6688,13 +6688,13 @@
       (reference "MX51") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1.25U-Hotswap")
     )
     (path "/7d4d6e3e-91d3-472d-ba9e-24b93ec1742f"
-      (reference "MX52") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-2.75U-Hotswap")
+      (reference "MX52") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-2.75U-Hotswap-ReversedStabilizers")
     )
     (path "/0870f4c6-cf74-4d41-94d2-7eecd22517a4"
-      (reference "MX53") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-6U-Centered-Hotswap")
+      (reference "MX53") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-6U-Centered-Hotswap-ReversedStabilizers")
     )
     (path "/150cbac0-f7f3-42a2-9fee-ab866a5399d2"
-      (reference "MX54") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-2.25U-Hotswap")
+      (reference "MX54") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-2.25U-Hotswap-ReversedStabilizers")
     )
     (path "/4d37e96d-86da-49e3-9eb6-cfd76991e47b"
       (reference "MX55") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-Hotswap")
