@@ -1,0 +1,29 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,(6.0.7)*%
+%TF.CreationDate,2022-10-26T22:21:46+02:00*%
+%TF.ProjectId,the PETER switchplate,74686520-5045-4544-9552-207377697463,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Soldermask,Top*%
+%TF.FilePolarity,Negative*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (6.0.7)) date 2022-10-26 22:21:46*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%ADD10C,2.200000*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,H4*%
+X263525000Y-139768508D03*
+%TD*%
+%TO.C,H3*%
+X25323510Y-139742815D03*
+%TD*%
+%TO.C,H1*%
+X68707000Y-49783999D03*
+%TD*%
+%TO.C,H2*%
+X221107000Y-49784000D03*
+%TD*%
+M02*
