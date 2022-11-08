@@ -402,7 +402,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "the PETER keyboard.dsn",
-      "step": "",
+      "step": "the PETER keyboard.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
