@@ -11,10 +11,10 @@ Please note that this project has been tested but I am *not responsible* for any
 
 Any questions, contact Calvin#0563 on Discord.
 
-![the PETER](https://imgur.com/Co3r3aU)
-![the PETER](https://imgur.com/vD7Vs5a)
+![the PETER](https://github.com/calvin-mcd/the-PETER-keyboard/blob/main/Images/the%20PETER%20layout.png)
+![the PETER](https://github.com/calvin-mcd/the-PETER-keyboard/blob/main/Images/the%20PETER.JPG)
 
-![the PETER](https://imgur.com/Vu6qRSL)
-![the PETER](https://imgur.com/XfZaPuq)
-![the PETER](https://imgur.com/vMJaYaP)
-![the PETER](https://imgur.com/txBAUIk)
+![the PETER](https://github.com/calvin-mcd/the-PETER-keyboard/blob/main/Images/DSCF4483.JPG)
+![the PETER](https://github.com/calvin-mcd/the-PETER-keyboard/blob/main/Images/DSCF4485.JPG)
+![the PETER](https://github.com/calvin-mcd/the-PETER-keyboard/blob/main/Images/DSCF4486.JPG)
+![the PETER](https://github.com/calvin-mcd/the-PETER-keyboard/blob/main/Images/DSCF4487.JPG)
