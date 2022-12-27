@@ -398,7 +398,7 @@
   },
   "pcbnew": {
     "last_paths": {
-      "gencad": "",
+      "gencad": "the PETER switchplate.cad",
       "idf": "",
       "netlist": "",
       "specctra_dsn": "the PETER keyboard.dsn",
