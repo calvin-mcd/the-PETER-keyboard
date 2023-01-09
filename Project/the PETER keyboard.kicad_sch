@@ -1887,6 +1887,8 @@
     (uuid fe2b2d1d-e4a4-448d-ac51-a6c6674ad6a3)
   )
 
+  (no_connect (at 30.48 46.99) (uuid 3f1b7547-078f-4ae4-95c3-c00728260cf9))
+
   (wire (pts (xy 210.185 26.67) (xy 210.185 44.45))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 01a28b29-3408-4553-81e9-7857c7275cc9)
