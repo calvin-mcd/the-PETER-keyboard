@@ -20,10 +20,6 @@ The case is based on rain#3950's [mfr2](https://github.com/rainkeebs/mfr2) and h
 
 ![the PETER](https://github.com/calvin-mcd/the-PETER-keyboard/blob/main/Images/the%20PETER.JPG)
 
-## Todo
-- [x] readme
-- [] license
-
 ## Disclaimer
 
 Please note that this project has been tested to work but I am *not responsible* for any outcomes of its use. However, feel free to edit, modify and otherwise utilise these files.
