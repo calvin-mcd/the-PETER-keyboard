@@ -30,7 +30,7 @@ This project is released under the GPL v3 License. Please refer to the LICENCE f
   
 ## Credits
 
- As always big thanks to the many people who helped me with the pcb, firmware and much more! Escpecially NoahK#1290, Iceage#8817, Dana#5035, Sierry#7140 & TweetyDaBird#3276!
+ As always big thanks to the many people who helped me with the pcb, firmware, case design and much more! Escpecially NoahK#1290, Gizzle#9369, Iceage#8817, Dana#5035, Sierry#7140 & TweetyDaBird#3276!
 
 
 Any questions, contact Calvin#0563 on Discord.
