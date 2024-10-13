@@ -16,10 +16,8 @@ The case is based on rain\#3950's [mfr2](https://github.com/rainkeebs/mfr2) and 
 
 ## Pictures
 
-![](https://github.com/calvin-mcd/the-PETER-keyboard/blob/main/Images/DSCF4483.JPG)  
-![](https://github.com/calvin-mcd/the-PETER-keyboard/blob/main/Images/DSCF4485.JPG)  
-![](https://github.com/calvin-mcd/the-PETER-keyboard/blob/main/Images/DSCF4486.JPG)  
-![](https://github.com/calvin-mcd/the-PETER-keyboard/blob/main/Images/DSCF4487.JPG)
+![](https://github.com/calvin-mcd/the-PETER-keyboard/blob/main/Images/1000000589.jpg)  
+![](https://github.com/calvin-mcd/the-PETER-keyboard/blob/main/Images/20240921_152616.jpg)
 
 ![](https://github.com/calvin-mcd/the-PETER-keyboard/blob/main/Images/the%20PETER.JPG)
 
