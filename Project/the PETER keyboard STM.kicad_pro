@@ -59,7 +59,27 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "copper_edge_clearance|216601500|43132500|b6f088fa-a437-405f-a2f8-6c09bbb45d81|18186408-56d4-4626-a5b6-a3c5ccde0218",
+        "copper_edge_clearance|64265000|43132500|3f413a4a-cc29-4ff1-81d0-678335194f60|023fc98f-0da6-4499-a61f-25b19dc6a595",
+        "courtyards_overlap|259380500|42217500|d04b6f4b-ae4a-4bb2-b631-318d6f064900|4147826d-9c54-47d8-8fab-aa100da53f06",
+        "courtyards_overlap|27459481|42217500|3e442a2d-157b-46e8-af4d-1e8310b2b9eb|b0ade9db-b709-49ab-adcb-a2bc79ff9c28",
+        "hole_clearance|152400000|117157500|a7305724-3cdb-46c6-8e9c-61faf3f82d80|a1f4ba6e-297e-4d9a-99a0-cc4a953c0edf",
+        "hole_clearance|152400000|119082500|a7305724-3cdb-46c6-8e9c-61faf3f82d80|ebee78cb-fb31-4621-9a02-2878e0194728",
+        "hole_clearance|152702500|119332500|a7305724-3cdb-46c6-8e9c-61faf3f82d80|b9b38f03-dfd1-46c9-b56b-a86f1bbc22bf",
+        "hole_clearance|247235500|49212500|5357ccf9-d3c0-4a9c-af1d-638d8f79d170|d5775af5-7abf-4b47-bc8e-5990d1c00701",
+        "hole_clearance|257467100|49212500|69ee252e-b6ad-4f13-ad1b-acdd2a0f60e0|9a94100b-0ed4-473b-98c0-794534af4b01",
+        "hole_clearance|28257500|49212500|3c78c82d-c7d1-4128-acd5-d7f83d1782cd|5ec313e8-1be2-4a82-9096-8308176331b1",
+        "hole_clearance|38417500|49212500|ed0966e3-b07b-4e3a-a87c-83608bc2b20a|388a1c6c-b421-4ef8-b17c-faed71d28a77",
+        "hole_near_hole|254785500|42212500|7ff47bf5-430d-4c47-bf6b-652fbae4c80e|265c83b2-fc88-4691-84f7-b21c9ae09de2",
+        "hole_near_hole|35837500|42212500|a904f83a-13ec-4836-bef3-5a4bd26c5a9b|862bc83f-e769-4ea2-a26e-7d4de117b116",
+        "shorting_items|246052100|47672500|5357ccf9-d3c0-4a9c-af1d-638d8f79d170|f6d96d52-eebc-4fd9-aa01-69d98b813e71",
+        "shorting_items|247235500|47922500|5357ccf9-d3c0-4a9c-af1d-638d8f79d170|6e633b05-4e92-4e59-8305-d25255b565f9",
+        "shorting_items|247235500|48062500|5357ccf9-d3c0-4a9c-af1d-638d8f79d170|67cc4ff3-cc9b-449f-932a-f316fcff9047",
+        "shorting_items|27002500|47672500|3c78c82d-c7d1-4128-acd5-d7f83d1782cd|c4ea7e07-20d0-4bb4-b43a-1e835782ce1e",
+        "shorting_items|28287500|47922500|3c78c82d-c7d1-4128-acd5-d7f83d1782cd|1e8a3415-1180-40d2-b399-b2998d9b6c6f",
+        "shorting_items|28287500|48062500|3c78c82d-c7d1-4128-acd5-d7f83d1782cd|ebce0546-3d59-4d92-ad1e-0c536af62002"
+      ],
       "meta": {
         "version": 2
       },
@@ -77,7 +97,7 @@
         "extra_footprint": "warning",
         "footprint": "error",
         "footprint_symbol_mismatch": "warning",
-        "footprint_type_mismatch": "error",
+        "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "holes_co_located": "warning",
@@ -101,7 +121,7 @@
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
-        "solder_mask_bridge": "error",
+        "solder_mask_bridge": "ignore",
         "starved_thermal": "error",
         "text_height": "warning",
         "text_thickness": "warning",
@@ -183,7 +203,10 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.25,
+        0.35,
+        0.5
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -502,7 +525,7 @@
       "gencad": "the PETER keyboard.cad",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Production/",
       "pos_files": "",
       "specctra_dsn": "the PETER keyboard.dsn",
       "step": "the PETER keyboard.step",
