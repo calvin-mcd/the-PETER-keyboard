@@ -8352,6 +8352,7 @@
 		(property "Reference" "SW1"
 			(at 5.75 -7 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "d804d210-9377-4f89-a0d9-1dac99d0e9d9")
 			(effects
 				(font
@@ -9598,6 +9599,7 @@
 		(property "Reference" "SW12"
 			(at 5.75 -7 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "4e3f960e-5c4a-4ffd-a19f-92d9ef0d7b8f")
 			(effects
 				(font
@@ -27604,7 +27606,7 @@
 		(descr "SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U3"
-			(at 0 2.4 360)
+			(at 0 2.4 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "1899a590-0421-4d42-8a5a-7c09548eb561")
@@ -27617,7 +27619,7 @@
 			)
 		)
 		(property "Value" "XC6206PxxxMR-Regulator_Linear"
-			(at 0 -2.4 360)
+			(at 0 -2.4 0)
 			(layer "B.Fab")
 			(uuid "6eb81443-084b-461b-bfcf-d6e926c42113")
 			(effects
@@ -27832,7 +27834,7 @@
 			(uuid "3717cf23-053c-47c3-a372-52f205c0ddb3")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "f259ca57-1ca0-4039-bf7b-78128e39f380")
 			(effects
