@@ -8415,7 +8415,7 @@
 		(path "/686c98ed-cc3a-4deb-bb9f-69987ce0dea2")
 		(sheetname "Root")
 		(sheetfile "the PETER keyboard STM.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -5.9 -6.1)
 			(end -3.5 -6.1)
@@ -8809,7 +8809,7 @@
 		(path "/c0d3af98-1b3a-45f0-8d48-b9d41da06e3f")
 		(sheetname "Root")
 		(sheetfile "the PETER keyboard STM.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 21.43125 -9.525)
 			(end 21.43125 9.525)
@@ -9233,7 +9233,7 @@
 		(path "/4c899c7c-1605-4f49-a2bb-ac2901f45aa2")
 		(sheetname "Root")
 		(sheetfile "the PETER keyboard STM.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 26.19375 -9.525)
 			(end 26.19375 9.525)
@@ -9662,7 +9662,7 @@
 		(path "/9508f5e5-418e-4d98-9aec-1f9aa187f8a3")
 		(sheetname "Root")
 		(sheetfile "the PETER keyboard STM.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -5.9 -6.1)
 			(end -3.5 -6.1)
@@ -10056,7 +10056,7 @@
 		(path "/f544ae16-c84f-4f75-bf44-e20884267836")
 		(sheetname "Root")
 		(sheetfile "the PETER keyboard STM.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 57.15 -9.525)
 			(end 57.15 9.525)
@@ -10973,7 +10973,7 @@
 		(path "/513f42ba-4ed0-45f6-8478-1aac1be6a953")
 		(sheetname "Root")
 		(sheetfile "the PETER keyboard STM.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 2.542893 5.6)
 			(end -0.5 5.6)
@@ -12043,7 +12043,7 @@
 		(path "/0c4723f8-fe1d-4b47-a84f-28760903d3fc")
 		(sheetname "Root")
 		(sheetfile "the PETER keyboard STM.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 6.085176 4.75022)
 			(end 6.085176 3.95022)
@@ -12900,7 +12900,7 @@
 		(path "/7d4d6e3e-91d3-472d-ba9e-24b93ec1742f")
 		(sheetname "Root")
 		(sheetfile "the PETER keyboard STM.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 2.542893 5.6)
 			(end -0.5 5.6)
@@ -13455,7 +13455,7 @@
 		(path "/fa9d31cb-8cce-41ce-b801-f524cde400af")
 		(sheetname "Root")
 		(sheetfile "the PETER keyboard STM.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 2.542893 5.6)
 			(end -0.5 5.6)
@@ -17184,7 +17184,7 @@
 		(path "/26c6a1c5-45b9-48e1-a80d-1965b155e7ea")
 		(sheetname "Root")
 		(sheetfile "the PETER keyboard STM.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 6.085176 4.75022)
 			(end 6.085176 3.95022)
@@ -17821,7 +17821,7 @@
 		(path "/ab9a969c-c8e9-4231-b1e5-aea6551ce587")
 		(sheetname "Root")
 		(sheetfile "the PETER keyboard STM.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 2.542893 5.6)
 			(end -0.5 5.6)
@@ -18905,7 +18905,7 @@
 		(path "/150cbac0-f7f3-42a2-9fee-ab866a5399d2")
 		(sheetname "Root")
 		(sheetfile "the PETER keyboard STM.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 2.542893 5.6)
 			(end -0.5 5.6)
@@ -19755,7 +19755,7 @@
 		(path "/cf3a1a49-e20d-488e-9217-91af3f3eabcd")
 		(sheetname "Root")
 		(sheetfile "the PETER keyboard STM.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 2.542893 5.6)
 			(end -0.5 5.6)
@@ -21982,7 +21982,7 @@
 		(path "/88f16c50-3877-4f22-a8a0-1099b17443c5")
 		(sheetname "Root")
 		(sheetfile "the PETER keyboard STM.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 2.542893 5.6)
 			(end -0.5 5.6)
@@ -23127,7 +23127,7 @@
 		(path "/a5c410ac-1e2b-4daa-b0e5-48064135bc0a")
 		(sheetname "Root")
 		(sheetfile "the PETER keyboard STM.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 2.542893 5.6)
 			(end -0.5 5.6)
@@ -23682,7 +23682,7 @@
 		(path "/b3049c74-5f86-472c-a069-bdcb1e57192b")
 		(sheetname "Root")
 		(sheetfile "the PETER keyboard STM.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 2.542893 5.6)
 			(end -0.5 5.6)
@@ -24237,7 +24237,7 @@
 		(path "/32097aa4-afbe-44fe-b6e1-cbf063c72378")
 		(sheetname "Root")
 		(sheetfile "the PETER keyboard STM.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 2.542893 5.6)
 			(end -0.5 5.6)
@@ -24792,7 +24792,7 @@
 		(path "/dede47eb-6e80-4ea7-ac30-968e0711fa2c")
 		(sheetname "Root")
 		(sheetfile "the PETER keyboard STM.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 2.542893 5.6)
 			(end -0.5 5.6)
@@ -25642,7 +25642,7 @@
 		(path "/87a1d5c4-66d3-4432-9215-b3baefb1b191")
 		(sheetname "Root")
 		(sheetfile "the PETER keyboard STM.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 2.542893 5.6)
 			(end -0.5 5.6)
@@ -27960,7 +27960,7 @@
 		(path "/46c7de59-f5d1-4fc3-bcd4-bf544c59f65e")
 		(sheetname "Root")
 		(sheetfile "the PETER keyboard STM.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 2.542893 5.6)
 			(end -0.5 5.6)
@@ -29105,7 +29105,7 @@
 		(path "/a7ef1a89-47dc-4792-9e9c-60fbd8d21a91")
 		(sheetname "Root")
 		(sheetfile "the PETER keyboard STM.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 2.542893 5.6)
 			(end -0.5 5.6)
@@ -29660,7 +29660,7 @@
 		(path "/8207d29d-2bb4-4d28-9c6a-8e6bae0882a4")
 		(sheetname "Root")
 		(sheetfile "the PETER keyboard STM.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 2.542893 5.6)
 			(end -0.5 5.6)
@@ -30215,7 +30215,7 @@
 		(path "/1393a8a5-4865-47a5-81f3-d0f30cf9f33d")
 		(sheetname "Root")
 		(sheetfile "the PETER keyboard STM.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 2.542893 5.6)
 			(end -0.5 5.6)
@@ -31065,7 +31065,7 @@
 		(path "/58486799-6235-46e2-aea0-76c81ed0915b")
 		(sheetname "Root")
 		(sheetfile "the PETER keyboard STM.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 2.542893 5.6)
 			(end -0.5 5.6)
@@ -31620,7 +31620,7 @@
 		(path "/51eb2d90-4d8c-48e2-9217-8d286785a97c")
 		(sheetname "Root")
 		(sheetfile "the PETER keyboard STM.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 2.542893 5.6)
 			(end -0.5 5.6)
@@ -32409,7 +32409,7 @@
 		(path "/e02f01fb-4f27-4e0b-bac1-bee7c7394420")
 		(sheetname "Root")
 		(sheetfile "the PETER keyboard STM.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 2.542893 5.6)
 			(end -0.5 5.6)
@@ -33259,7 +33259,7 @@
 		(path "/3fe25d5a-95de-446a-964a-226e6de43c66")
 		(sheetname "Root")
 		(sheetfile "the PETER keyboard STM.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 2.542893 5.6)
 			(end -0.5 5.6)
@@ -33814,7 +33814,7 @@
 		(path "/3b94eb5a-bc7c-4c2f-86ee-b151c572113a")
 		(sheetname "Root")
 		(sheetfile "the PETER keyboard STM.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 2.542893 5.6)
 			(end -0.5 5.6)
@@ -34959,7 +34959,7 @@
 		(path "/badc8307-7b46-4896-a351-b132711fa67a")
 		(sheetname "Root")
 		(sheetfile "the PETER keyboard STM.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 2.542893 5.6)
 			(end -0.5 5.6)
@@ -36277,7 +36277,7 @@
 		(path "/246d50d9-fc3a-4697-b086-5724d89aa8d0")
 		(sheetname "Root")
 		(sheetfile "the PETER keyboard STM.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 2.542893 5.6)
 			(end -0.5 5.6)
@@ -37717,7 +37717,7 @@
 		(path "/dd7988fe-1606-40e9-9b8a-6ddfa154abc2")
 		(sheetname "Root")
 		(sheetfile "the PETER keyboard STM.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 2.542893 5.6)
 			(end -0.5 5.6)
@@ -38567,7 +38567,7 @@
 		(path "/26cec1a4-37b7-41a7-9c5f-7ab869faabb1")
 		(sheetname "Root")
 		(sheetfile "the PETER keyboard STM.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 2.542893 5.6)
 			(end -0.5 5.6)
@@ -39417,7 +39417,7 @@
 		(path "/e89fe464-0915-4a7d-ae92-d851855d39d4")
 		(sheetname "Root")
 		(sheetfile "the PETER keyboard STM.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 2.542893 5.6)
 			(end -0.5 5.6)
@@ -41091,7 +41091,7 @@
 		(path "/1af24b0b-1162-4a6d-9ae3-4cee1418189b")
 		(sheetname "Root")
 		(sheetfile "the PETER keyboard STM.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 2.542893 5.6)
 			(end -0.5 5.6)
@@ -41646,7 +41646,7 @@
 		(path "/706d6928-fe51-4e8d-bb9e-c3a3c04a9dba")
 		(sheetname "Root")
 		(sheetfile "the PETER keyboard STM.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 6.085176 4.75022)
 			(end 6.085176 3.95022)
@@ -42283,7 +42283,7 @@
 		(path "/074ba60b-098a-4625-a0ed-426f7c501f0c")
 		(sheetname "Root")
 		(sheetfile "the PETER keyboard STM.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 2.542893 5.6)
 			(end -0.5 5.6)
@@ -42838,7 +42838,7 @@
 		(path "/bf23b46a-e397-4c33-ad89-4e473f0909fd")
 		(sheetname "Root")
 		(sheetfile "the PETER keyboard STM.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 2.542893 5.6)
 			(end -0.5 5.6)
@@ -46048,7 +46048,7 @@
 		(path "/aa9fc6eb-2127-445f-98b4-c1442013f351")
 		(sheetname "Root")
 		(sheetfile "the PETER keyboard STM.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 2.542893 5.6)
 			(end -0.5 5.6)
@@ -46898,7 +46898,7 @@
 		(path "/20833ada-5716-4ab0-bf27-fc635969e475")
 		(sheetname "Root")
 		(sheetfile "the PETER keyboard STM.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 2.542893 5.6)
 			(end -0.5 5.6)
@@ -47748,7 +47748,7 @@
 		(path "/cefcc1a4-c863-4956-8713-0a6e4e398f89")
 		(sheetname "Root")
 		(sheetfile "the PETER keyboard STM.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 6.085176 4.75022)
 			(end 6.085176 3.95022)
@@ -48385,7 +48385,7 @@
 		(path "/c5f0cd6d-e1d3-40d5-a99d-8b222006a74f")
 		(sheetname "Root")
 		(sheetfile "the PETER keyboard STM.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 2.542893 5.6)
 			(end -0.5 5.6)
@@ -49242,7 +49242,7 @@
 		(path "/3fd0b5f5-af27-40ac-9941-9133e728acea")
 		(sheetname "Root")
 		(sheetfile "the PETER keyboard STM.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 2.542893 5.6)
 			(end -0.5 5.6)
@@ -50387,7 +50387,7 @@
 		(path "/884095f5-2a91-4812-bc79-a96224ba3b43")
 		(sheetname "Root")
 		(sheetfile "the PETER keyboard STM.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 2.542893 5.6)
 			(end -0.5 5.6)
@@ -50942,7 +50942,7 @@
 		(path "/516e0daf-77e4-4667-9704-c39cc138f952")
 		(sheetname "Root")
 		(sheetfile "the PETER keyboard STM.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 2.542893 5.6)
 			(end -0.5 5.6)
@@ -51792,7 +51792,7 @@
 		(path "/b6b717e5-8d3a-4ea7-a445-099f6273a396")
 		(sheetname "Root")
 		(sheetfile "the PETER keyboard STM.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 2.542893 5.6)
 			(end -0.5 5.6)
@@ -52642,7 +52642,7 @@
 		(path "/0870f4c6-cf74-4d41-94d2-7eecd22517a4")
 		(sheetname "Root")
 		(sheetfile "the PETER keyboard STM.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 2.542893 5.6)
 			(end -0.5 5.6)
@@ -53197,7 +53197,7 @@
 		(path "/d4026787-bbef-4997-8d4d-a9f7f1373357")
 		(sheetname "Root")
 		(sheetfile "the PETER keyboard STM.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 2.542893 5.6)
 			(end -0.5 5.6)
@@ -53752,7 +53752,7 @@
 		(path "/63a2f422-5c3c-4c28-9cc8-28cebfc5cf33")
 		(sheetname "Root")
 		(sheetfile "the PETER keyboard STM.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 2.542893 5.6)
 			(end -0.5 5.6)
@@ -54307,7 +54307,7 @@
 		(path "/4d37e96d-86da-49e3-9eb6-cfd76991e47b")
 		(sheetname "Root")
 		(sheetfile "the PETER keyboard STM.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 2.542893 5.6)
 			(end -0.5 5.6)
@@ -55157,7 +55157,7 @@
 		(path "/829167d1-907c-4656-90c9-8440675dd25a")
 		(sheetname "Root")
 		(sheetfile "the PETER keyboard STM.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 2.542893 5.6)
 			(end -0.5 5.6)
@@ -55712,7 +55712,7 @@
 		(path "/6381fa03-5e6e-479a-a8d9-99d7af15f2e1")
 		(sheetname "Root")
 		(sheetfile "the PETER keyboard STM.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 2.542893 5.6)
 			(end -0.5 5.6)
@@ -56267,7 +56267,7 @@
 		(path "/7437a67d-9f86-47eb-ac74-33bff11ed02e")
 		(sheetname "Root")
 		(sheetfile "the PETER keyboard STM.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 2.542893 5.6)
 			(end -0.5 5.6)
@@ -57117,7 +57117,7 @@
 		(path "/cc86b9a8-021e-45d7-a7ea-f1d3c79fb398")
 		(sheetname "Root")
 		(sheetfile "the PETER keyboard STM.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 2.542893 5.6)
 			(end -0.5 5.6)
@@ -57672,7 +57672,7 @@
 		(path "/6a4d7b5d-cb1a-4301-b081-c8583043b271")
 		(sheetname "Root")
 		(sheetfile "the PETER keyboard STM.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 6.085176 4.75022)
 			(end 6.085176 3.95022)
@@ -58309,7 +58309,7 @@
 		(path "/cbfa2faf-51a4-481b-9fc5-db9f96d5e737")
 		(sheetname "Root")
 		(sheetfile "the PETER keyboard STM.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 2.542893 5.6)
 			(end -0.5 5.6)
@@ -59749,7 +59749,7 @@
 		(path "/a820ab1f-00f7-4272-90de-c20545c0dc91")
 		(sheetname "Root")
 		(sheetfile "the PETER keyboard STM.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 6.085176 4.75022)
 			(end 6.085176 3.95022)
@@ -61045,7 +61045,7 @@
 		(path "/1e414b90-2540-4c62-bdd9-87824a5491e1")
 		(sheetname "Root")
 		(sheetfile "the PETER keyboard STM.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 2.542893 5.6)
 			(end -0.5 5.6)
@@ -61895,7 +61895,7 @@
 		(path "/7eb7c841-49ce-47f3-b44c-f920c9cfb669")
 		(sheetname "Root")
 		(sheetfile "the PETER keyboard STM.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 2.542893 5.6)
 			(end -0.5 5.6)
@@ -62745,7 +62745,7 @@
 		(path "/e888e36c-a06d-4103-806e-3c1b7ecb2311")
 		(sheetname "Root")
 		(sheetfile "the PETER keyboard STM.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 2.542893 5.6)
 			(end -0.5 5.6)
@@ -63890,7 +63890,7 @@
 		(path "/c00f1824-0a34-41f7-9461-3bfe014c58b7")
 		(sheetname "Root")
 		(sheetfile "the PETER keyboard STM.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 2.542893 5.6)
 			(end -0.5 5.6)
@@ -64445,7 +64445,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C115351"
+		(property "LCSC" "C115357"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -64731,7 +64731,7 @@
 		(path "/a7d56f1e-351a-4a94-aadb-b6f06d4741a5")
 		(sheetname "Root")
 		(sheetfile "the PETER keyboard STM.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 2.542893 5.6)
 			(end -0.5 5.6)
@@ -65286,7 +65286,7 @@
 		(path "/c90c161f-6066-4122-bc66-c3cf0a365b90")
 		(sheetname "Root")
 		(sheetfile "the PETER keyboard STM.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 2.542893 5.6)
 			(end -0.5 5.6)
@@ -65841,7 +65841,7 @@
 		(path "/0ea866a8-d426-4a40-9d5c-88c6e0fee07d")
 		(sheetname "Root")
 		(sheetfile "the PETER keyboard STM.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 2.542893 5.6)
 			(end -0.5 5.6)
@@ -67041,6 +67041,18 @@
 		(effects
 			(font
 				(size 2 2)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "JLCJLCJLCJLC"
+		(at 148.43125 94.45625 90)
+		(layer "B.SilkS")
+		(uuid "53122351-5b2e-4b56-a08f-76a7bd8fdc6c")
+		(effects
+			(font
+				(size 0.8 0.8)
 				(thickness 0.15)
 			)
 			(justify mirror)
