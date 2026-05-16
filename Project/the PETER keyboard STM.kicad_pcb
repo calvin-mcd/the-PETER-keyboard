@@ -58042,6 +58042,7 @@
 		(property "Reference" "MX17"
 			(at -4.25 1.75 0)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "976d3ce9-adbc-4e79-8161-330e2d1e55fe")
 			(effects
 				(font
