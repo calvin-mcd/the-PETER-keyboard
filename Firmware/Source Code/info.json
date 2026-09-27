@@ -1,7 +1,7 @@
 {
     "manufacturer": "Calvin#0563",
     "keyboard_name": "the PETER",
-    "maintainer": "Shinkai Mayano",
+    "maintainer": "Calvin#0563",
     "bootloader": "atmel-dfu",
     "diode_direction": "COL2ROW",
     "features": {
